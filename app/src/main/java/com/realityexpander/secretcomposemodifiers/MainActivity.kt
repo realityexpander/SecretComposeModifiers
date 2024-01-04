@@ -52,11 +52,11 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     // Marquee Text
-                    if(true) {
+                    if(false) {
                         Text(
-                            text = "A very long line of text that will wrap to the next line and beyond, i repeat, a very long line of text that will wrap to the next line and beyond.",
+                            text = "A very long line of text that will wrap not to the next line and beyond, I repeat, a very long line of text that will not wrap to the next line and beyond.",
                             maxLines = 1,
-                            modifier = Modifier.basicMarquee()
+                            //modifier = Modifier.basicMarquee()
                         )
                     }
 
@@ -120,7 +120,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     // Draw with content (no need to use Canvas)
-                    if(false) {
+                    if(true) {
                         var offset by remember {
                             mutableStateOf(Offset.Zero)
                         }
