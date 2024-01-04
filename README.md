@@ -1,3 +1,10 @@
+# Compose Tips - Secret Compose Modifiers
+
+- Marquee text
+- Magnifier
+- Magnifier with Drag
+- Draw with Content (no need for Canvas)
+
 ```
 /**
  * Compose Tips - Secret Compose Modifiers
